@@ -1,0 +1,36 @@
+body {
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-screen {
+    height: 65px; 
+    font-size: 2rem; 
+    text-align: right; 
+    padding: 0 15px; 
+    font-family: monospace;
+}
+
+.calcBtn, .calcNum, .calcOp {
+    height: 65px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+
+.calcBtn:active  {
+    transform: scale(0.95);
+}
+
+.calcNum:active {
+    transform: scale(0.95);
+}
+
+.calcOp:active {
+    transform: scale(0.95);
+}
